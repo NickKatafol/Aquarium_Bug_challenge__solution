@@ -21,6 +21,8 @@ Vue.js Transition
 
 Typescript
 
+e2e Test
+
 
 
 ### Setup
