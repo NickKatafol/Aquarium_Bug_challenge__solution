@@ -2,7 +2,7 @@
 
 ### Project Objective
 
-Deep implementation the Vue.js Transition.
+Deep implementation of the Vue.js Transition.
 
 
 ### Description
@@ -18,6 +18,8 @@ There is the Aquarium.
 Vue.js v3
 
 Vue.js Transition
+
+Vue.js Composables
 
 Typescript
 
