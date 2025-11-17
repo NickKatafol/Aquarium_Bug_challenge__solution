@@ -2,7 +2,7 @@
 
 ### Project Objective
 
-Deep implementation the Vue.js <Transition/>.
+Deep implementation the Vue.js Transition.
 
 
 ### Description
