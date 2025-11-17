@@ -1,11 +1,11 @@
-# The project description
+# Aquarium
 
-## Project Objective
+### Project Objective
 
 Deep implementation the Vue.js <Transition/>.
 
 
-## Description
+### Description
 
 There is the Aquarium.
 
@@ -13,7 +13,7 @@ There is the Aquarium.
 - If you click on the Fish it will disapire.
 
 
-## Stack
+### Stack
 
 Vue.js v3
 
@@ -23,14 +23,14 @@ Typescript
 
 
 
-## Setup
+### Setup
 
 ```sh
 npm install
 npm run dev
 ```
 
-## E2e Test
+### E2e Test
 
 ```
 npm run test:e2e:dev
