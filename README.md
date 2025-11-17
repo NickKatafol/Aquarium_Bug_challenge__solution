@@ -30,6 +30,12 @@ npm install
 npm run dev
 ```
 
+## E2e Test
+
+```
+npm run test:e2e:dev
+
+```
 
 
 
