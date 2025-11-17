@@ -6,10 +6,14 @@ import { ref, computed, onMounted, nextTick, reactive } from "vue";
 
 
 <template>
-  ABOUT page
+  <h3>
+    ABOUT page
+  </h3>
 
+  <section>
+    Deep implementation the Vue.js Transition.
+  </section>
 </template>
 
 
-<style>
-</style>
+<style></style>

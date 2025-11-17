@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import CounterDown from './components/CounterDown.vue'
 
 </script>
 
@@ -12,7 +11,6 @@ import CounterDown from './components/CounterDown.vue'
         |
         <RouterLink to="/about">About the progect</RouterLink>
       </div>
-      <CounterDown />
     </nav>
 
     <RouterView />

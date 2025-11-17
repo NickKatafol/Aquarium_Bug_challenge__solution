@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { ref, computed, shallowRef, ComponentPublicInstance, onMounted, nextTick } from 'vue';
+import { ref} from 'vue';
 import Fish from '../components/Fish.vue'
 import markdown from 'markdown-it'
-import {projectDescription, bugsDescription} from '../assets/texts/texts.ts'
+import {projectDescription} from '../assets/texts/texts.ts'
 
 const md = markdown({html: false})
 const projectDescription_ = md.render(projectDescription)
-const bugsDescription_ = md.render(bugsDescription)
 
 const fishCloud: string[] = ['ghostFish', 'goldFish', 'guppie', 'purpleFish', 'tropicalFish', 'tuna']
 const fishFlock = ref<IFishSet[]>([])
@@ -73,16 +72,6 @@ export class FishSet implements IFishSet {
   <section>
     <h4>The Project description</h4>
     <div v-html="projectDescription_"></div>
-  </section>
-
-  <section>
-    <h4>The bugs description</h4>
-    <div v-html="bugsDescription_"></div>
-  </section>
-
-  <section>
-    <h4>The target behavior</h4>
-    <video controls src="../assets/video/AquariumVideo.webm"></video>
   </section>
 </template>
 
