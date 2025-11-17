@@ -21,7 +21,7 @@ Vue.js Transition
 
 Typescript
 
-e2e Test
+e2e Test (Cypress)
 
 
 
@@ -29,12 +29,14 @@ e2e Test
 
 ```sh
 npm install
+
 npm run dev
+
 ```
 
 ### E2e Test
 
-```
+```sh
 npm run test:e2e:dev
 
 ```
